@@ -9,9 +9,14 @@ const login = async (userInfo: UserLogin) => {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify(userInfo),
-  }); 
+  });
+
+  if (!response.ok) {
+    throw new Error('Network response was not ok');
+  }
+
+  const data = await response.json();
+  return data;
 }
-
-
 
 export { login };

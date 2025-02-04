@@ -1,5 +1,11 @@
 import { JwtPayload, jwtDecode } from 'jwt-decode';
 
+interface ExtendedJwt extends JwtPayload {
+  // Add any additional properties you expect in the JWT payload here
+  username?: string;
+  email?: string;
+}
+
 class AuthService {
   // This method decodes the JWT token to get the user's profile information.
   getProfile() {
