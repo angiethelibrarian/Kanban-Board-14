@@ -28,7 +28,7 @@ In this solution, users can log in with valid credentials, storing a JWT in loca
 
 ## Deployment
 
-- Rendered Live URL: 
+- Rendered Live URL: https://kanban-board-14-zi0v.onrender.com
 
 
 ## Contributing
