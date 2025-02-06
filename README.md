@@ -38,7 +38,7 @@ In this solution, users can log in with valid credentials, storing a JWT in loca
 - Render: https://render.com/docs/configure-environment-variables
 - Inquirer and 'pg' package - https://www.npmjs.com/package/pg
 - Tutor help via https://bootcampspot.instructure.com/courses/6651/external_tools/429
--
+
 
 ## Questions
 
